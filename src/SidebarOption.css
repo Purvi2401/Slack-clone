@@ -1,0 +1,26 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 7px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sidebarOption:hover {
+  opacity: 0.9;
+  background-color: #340e36;
+}
+
+.sidebarOption > h3 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sidebarOption > h3 > .sidebarOption-icon,
+.sidebarOption > h3 > .sidebarOption-hash {
+  margin-right: 10px;
+  font-size: inherit;
+}
